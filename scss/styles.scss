@@ -77,8 +77,11 @@ div.card {
 #servicesList {
 background-image: url(../img/wordcloud.png);
 @include parallax;
-div.HoverableCard:hover {
-    box-shadow: 10px 10px 5px grey;
+div.HoverableCard{
+    background-color: #ECF8F8;
+    &:hover {
+      box-shadow: 10px 10px 5px grey;
+    }
     }
 }
   
@@ -113,7 +116,7 @@ div.HoverableCard:hover {
     top: 0; /* At the top*/
     background: $myblue; /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    width: 80%; 
+    width: 75vh; 
     padding: 50px;
     }
   .servicesImg {
