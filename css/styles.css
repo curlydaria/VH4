@@ -73,7 +73,8 @@ section.ClientSliderBackground {
   height: auto;
   position: relative;
   background: #FAA53F;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  padding: 2em; }
   section.ClientSliderBackground div#ClientSlider {
     max-width: 900px;
     margin: auto; }
